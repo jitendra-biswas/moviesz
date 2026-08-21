@@ -13,7 +13,7 @@ const Nav = ({ setSearchTerm }) => {
 
   return (
     <nav className="w-full flex items-center justify-between py-3 fixed left-0 top-0 px-20 z-99 bg-[#191621]">
-      <div className="logo cursor-pointer" onClick={()=>window.location.reload()}>Moviesz</div>
+      <div className="logo logofont text-xl cursor-pointer" onClick={()=>window.location.reload()}>Moviesz</div>
 
       
 
