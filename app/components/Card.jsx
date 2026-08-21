@@ -15,9 +15,9 @@ const Card = ({movie}) => {
 
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/60">
         <div className="absolute inset-0 p-4 text-white flex flex-col items-center justify-center text-center">
+          <h2 className="text-xl font-bold">{movie.Year}</h2>
           <h2 className="text-xl font-bold">{movie.Title}</h2>
-          <h2 className="text-xl font-bold">Captain Marvel</h2>
-          <p className="text-sm mt-2">Movie</p>
+          <p className="text-sm mt-2">{movie.Type}</p>
         </div>
       </div>
     </div>
